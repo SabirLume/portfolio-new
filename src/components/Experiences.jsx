@@ -1,8 +1,8 @@
-const Experiences = ({ props }) => {
+const Experiences = ({ colorTheme }) => {
   return (
     <div className={"experience-section"}>
       <h2 className={"title"}> Recent Experiences </h2>
-      <div className={"experience-item"}>
+      <div className={`experience-item ${colorTheme}`}>
         <p className={"experience-item-title"}>Wayfair</p>
         <p className={"experience-item-date"}>Mar 2019 - March 2024 | 5 years </p>
         <p className={"experience-item-info"}>https://sell.wayfair.com/grow-advertising</p>
@@ -10,7 +10,7 @@ const Experiences = ({ props }) => {
           Worked as full-stack developer across multiple teams within the ads space, providing customer facing solutions for advertising products.
         </p>
       </div>
-      <div className={"experience-item"}>
+      <div className={`experience-item ${colorTheme}`}>
         <p className={"experience-item-title"}>Solo Travel</p>
         <p className={"experience-item-date"}>Mar 2024 - July 2024 | 3 months</p>
         <p className={"experience-item-info"}>Vietname 🇻🇳  |  Indonesia 🇮🇩  |  Philippines 🇵🇭  |  Thailand 🇹🇭</p>

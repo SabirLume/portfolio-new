@@ -10,6 +10,8 @@ function App() {
 
   const [isDarkMode, setDarkMode] = useState(true);
 
+  const mode = isDarkMode ? "dark-mode" : "light-mode";
+
   const toggleDarkMode = () => {
     console.log("checking logs")
     setDarkMode(n => {
@@ -17,11 +19,11 @@ function App() {
     })
   }
   return (
-    <div className={`container ${isDarkMode ? "light-mode" : "dark-mode"}`}>
+    <div className={`container ${mode}`}>
       <div className={"component-container"}>
         <Header toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />
         <Blurb />
-        <Experiences />
+        <Experiences colorTheme={mode} />
         <Technologies />
         <Contact />
       </div>

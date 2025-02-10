@@ -15,7 +15,7 @@ const Header = ({ toggleDarkMode, isDarkMode }) => {
             </a>
             :
             <span onClick={toggleDarkMode}>
-              <img src={moon} alt="dark mode toggle" className={"nav-icon"} />
+              <img src={moon} alt="dark mode toggle" className={"nav-icon moon"} />
             </span>
           }
         </nav>
