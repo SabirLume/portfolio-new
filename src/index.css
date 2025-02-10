@@ -1,0 +1,95 @@
+#root{
+  background-color: #026f52;
+  color:white;
+  opacity:.8;
+}
+body{
+  margin:0;
+}
+
+.dark-mode {
+  background-color: #026f52;
+  color:white;
+  opacity:.8;
+}
+
+.light-mode {
+  background-color: white;
+  color:black;
+}
+
+.container {
+  padding: 10px 0 10px 0;
+}
+.component-container {
+  width:50%;
+  margin: 0 auto;
+}
+
+.titles {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.nav-icon {
+
+}
+
+.a-icon {
+  max-width:40%;
+}
+
+.flex-nav-bar {
+  display:flex;
+  flex:1;
+  justify-content:space-between;
+}
+.flex-nav-controls{
+  display:flex;
+  flex:1;
+  justify-content:space-between:
+}
+
+/*Header Section */
+
+/*Blurb Section */
+.flex-blurb-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.blurb-text {
+    opacity: .7;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    max-width:50%;
+}
+.headshot {
+  max-width:130%;
+  clip-path: circle();
+}
+/*Experience Section */
+.experience-item {
+  border:1px solid black;
+  border-radius: 10px;
+  margin:10px 0
+} 
+.experience-item-title {
+  font-weight:bold;
+}
+.experience-item-date {
+  font-size: 13px;
+}
+.experience-item-info {
+  font-size:14px;
+}
+.experience-item-summary {
+font-size:14px;
+}
+.experience-item p {
+  padding:1%;
+}
