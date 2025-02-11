@@ -25,7 +25,7 @@ function App() {
         <Blurb />
         <Experiences colorTheme={mode} />
         <Technologies />
-        <Contact />
+        <Contact colorTheme={mode} />
       </div>
     </div>
   )
