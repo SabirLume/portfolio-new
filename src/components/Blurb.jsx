@@ -12,7 +12,7 @@ const Blurb = () => {
         <p className="text-base md:text-lg leading-relaxed text-gray-600 dark:text-gray-300">
           My name is{" "}
           <span className="font-semibold text-gray-900 dark:text-white">
-            Your Name
+            Anwar
           </span>{" "}
           and I am an mid-level Software Engineer with a solid background in
           e-commerce, contributing 5 years of dedicated service to a dynamic
