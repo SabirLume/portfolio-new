@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Email Card */}
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:work@sabirlume.com"
             className="rounded-lg border border-gray-200 dark:border-[#313244] p-4 bg-white dark:bg-[#1e1e2e] hover:shadow-md transition-all duration-300 flex flex-col items-center gap-3 group"
           >
             <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-[#313244] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -37,14 +37,14 @@ const Contact = () => {
             <div className="text-center">
               <h3 className="font-medium dark:text-[#89b4fa] mb-1">Email</h3>
               <p className="text-sm text-gray-600 dark:text-[#cdd6f4] break-all">
-                your.email@example.com
+                work@sabirlume.com
               </p>
             </div>
           </a>
 
           {/* LinkedIn Card */}
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/anwarsabir"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg border border-gray-200 dark:border-[#313244] p-4 bg-white dark:bg-[#1e1e2e] hover:shadow-md transition-all duration-300 flex flex-col items-center gap-3 group"
@@ -70,14 +70,14 @@ const Contact = () => {
             <div className="text-center">
               <h3 className="font-medium dark:text-[#89b4fa] mb-1">LinkedIn</h3>
               <p className="text-sm text-gray-600 dark:text-[#cdd6f4]">
-                linkedin.com/in/yourprofile
+                linkedin.com/in/anwarsabir
               </p>
             </div>
           </a>
 
           {/* GitHub Card */}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/sabirlume"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg border border-gray-200 dark:border-[#313244] p-4 bg-white dark:bg-[#1e1e2e] hover:shadow-md transition-all duration-300 flex flex-col items-center gap-3 group"
@@ -102,7 +102,7 @@ const Contact = () => {
             <div className="text-center">
               <h3 className="font-medium dark:text-[#89b4fa] mb-1">GitHub</h3>
               <p className="text-sm text-gray-600 dark:text-[#cdd6f4]">
-                github.com/yourusername
+                github.com/sabirlume
               </p>
             </div>
           </a>

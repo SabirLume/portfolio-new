@@ -14,22 +14,24 @@ const Blurb = () => {
           <span className="font-semibold text-gray-900 dark:text-white">
             Anwar
           </span>{" "}
-          and I am an mid-level Software Engineer with a solid background in
-          e-commerce, contributing 5 years of dedicated service to a dynamic
-          industry leader. My expertise lies in successfully managing Supplier
-          Advertising, where I have excelled in developing and enhancing
-          customer-facing applications.
+          I'm a software engineer who loves solving real-world problems. I
+          believe software should make life simpler, work more efficient, and
+          ideas more accessible. Whether it’s streamlining workflows, expanding
+          product reach, or enhancing daily life, this is what drives me to
+          build.
+        </p>
+        <p className="text-base md:text-lg leading-relaxed text-gray-600 dark:text-gray-300">
+          With 5 years engineering experience within advertising, I’ve seen
+          firsthand how robust software transforms businesses. Now, I’m looking
+          into continuing to channeling my experience into crafting solutions
+          that matter.
         </p>
         <p className="text-base md:text-lg leading-relaxed text-gray-600 dark:text-gray-300">
           Proficient in a diverse tech stack, I have honed my skills in Java,
-          PHP, Python, React, and have hands-on experience with Kubernetes and
-          Docker. My proven track record of delivering high quality solutions
-          and collaborating with cross-functional teams makes me a valuable
-          asset for any forward-thinking organization.
-        </p>
-        <p className="text-base md:text-lg leading-relaxed text-gray-600 dark:text-gray-300">
-          I am eager to bring my technical prowess and innovative mindset to a
-          new challenge within the realm of software engineering.
+          PHP, React, and have hands-on experience with Kubernetes and Docker.
+          My proven track record of delivering high quality solutions and
+          collaborating with cross-functional teams makes me a valuable asset
+          for any forward-thinking organization.
         </p>
       </div>
       <div className="md:w-1/3 flex justify-center">
